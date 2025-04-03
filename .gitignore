@@ -1,0 +1,73 @@
+#################### Backend ###########################
+
+HELP.md
+resume-personify-ai-java-springboot-backend/target/
+resume-personify-ai-java-springboot-backend/!.mvn/wrapper/maven-wrapper.jar
+resume-personify-ai-java-springboot-backend/!**/src/main/**/target/
+resume-personify-ai-java-springboot-backend/!**/src/test/**/target/
+
+### STS ###
+resume-personify-ai-java-springboot-backend/.apt_generated
+resume-personify-ai-java-springboot-backend/.classpath
+resume-personify-ai-java-springboot-backend/.factorypath
+resume-personify-ai-java-springboot-backend/.project
+resume-personify-ai-java-springboot-backend/.settings
+resume-personify-ai-java-springboot-backend/.springBeans
+resume-personify-ai-java-springboot-backend/.sts4-cache
+
+### IntelliJ IDEA ###
+resume-personify-ai-java-springboot-backend/.idea
+resume-personify-ai-java-springboot-backend/*.iws
+resume-personify-ai-java-springboot-backend/*.iml
+resume-personify-ai-java-springboot-backend/*.ipr
+
+
+### VS Code ###
+resume-personify-ai-java-springboot-backend/.vscode/
+
+#env files
+resume-personify-ai-java-springboot-backend/.env
+
+
+resume-personify-ai-java-springboot-backend/.gitignore
+
+################### Frontend #######################
+# Node.js
+resume-personify-ai-react-frontend/node_modules/
+resume-personify-ai-react-frontend/npm-debug.log*
+resume-personify-ai-react-frontend/yarn-debug.log*
+resume-personify-ai-react-frontend/yarn-error.log*
+resume-personify-ai-react-frontend/pnpm-debug.log*
+resume-personify-ai-react-frontend/lerna-debug.log*
+
+# Logs
+resume-personify-ai-react-frontend/logs/
+resume-personify-ai-react-frontend/*.log
+
+# IDE Configuration
+resume-personify-ai-react-frontend/.vscode/
+resume-personify-ai-react-frontend/.idea/
+
+# Cache
+resume-personify-ai-react-frontend/.cache/
+
+# Temporary Files
+resume-personify-ai-react-frontend/*.swp
+resume-personify-ai-react-frontend/*.tmp
+
+# Mac OS
+resume-personify-ai-react-frontend/.DS_Store
+
+# Visual Studio
+resume-personify-ai-react-frontend/*.suo
+resume-personify-ai-react-frontend/*.ntvs*
+resume-personify-ai-react-frontend/*.njsproj
+resume-personify-ai-react-frontend/*.sln
+
+# TypeScript
+resume-personify-ai-react-frontend/.tsbuildinfo
+
+#node_modules
+resume-personify-ai-react-frontend/node_modules
+
+resume-personify-ai-react-frontend/.gitignore
