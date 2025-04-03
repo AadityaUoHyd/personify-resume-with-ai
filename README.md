@@ -1,6 +1,13 @@
 # personify-resume-with-ai
 This project, **Personify Resume with AI**, is an AI-powered resume-building web application that leverages **Spring AI** on the backend and **React** on the frontend. It integrates **Mistral AI** for generating personalized resume content based on user descriptions. Authentication is still pending and I am suppose to build, it'll be handled in future using **Spring Security with JWT and Google OAuth**. The backend, built with **Spring Boot**, this project as of requires no db as we are not saving anything. This system dynamically processes user inputs to generate structured, ATS-friendly resumes. With **REACT** for frontend efficiency, the app ensures a seamless user experience. Future enhancements may include real-time AI-powered resume analysis with scores, and job-matching features. 🚀
 
+## Technology Used
+- Java 21
+- Spring Boot 3
+- Spring AI
+- Mistral-AI (only API-Key integration)
+- React Js
+
 ## Get your mistral api-key from here for your .env file
 You can use freely available key for demo projects => https://console.mistral.ai/api-keys
 
