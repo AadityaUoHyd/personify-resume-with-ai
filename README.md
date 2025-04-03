@@ -8,11 +8,13 @@ This project, **Personify Resume with AI**, is an AI-powered resume-building web
 - Mistral-AI (only API-Key integration)
 - React Js
 
-## Get your mistral api-key from here for your .env file
-You can use freely available key for demo projects => https://console.mistral.ai/api-keys
+## Create your .env file with these two properties in root folder of resume-personify-ai-java-springboot-backend.
+MISTRAL_AI_API_KEY=your-mistral-ai-api-key <br>
+MISTRAL_AI_CHAT_MODEL=mistral-large-latest
 
+- For MISTRAL_AI_API_KEY, generate your own mistral api-key from here (You can use freely available key for demo projects) => https://console.mistral.ai/api-keys
+- For MISTRAL_AI_CHAT_MODEL, you can choose any one model from given below :
 ```
-spring.ai.mistralai.chat.options.model=<choose any one model from given below>
 - open-mistral-7b,
 - open-mixtral-8x7b,
 - open-mixtral-8x22b,
@@ -20,7 +22,7 @@ spring.ai.mistralai.chat.options.model=<choose any one model from given below>
 - mistral-large-latest.
 ```
 
-## How to start project 
+## How To Start This Project 
 - resume-personify-ai-react-frontend (vite project)
 ```
 npm install
@@ -28,10 +30,8 @@ npm run dev
 ```
 - resume-personify-ai-java-springboot-backend
 ```
-=> create .env file in root folder of resume-personify-ai-java-springboot-backend.
-      MISTRAL_AI_API_KEY=<provide-your-own-mistral-ai-api-key>
-      MISTRAL_AI_CHAT_MODEL=mistral-large-latest
-=> Run your spring boot project.
+=> create .env file as mentioned above.
+=> Run your spring boot project through IDE, OR using MAVEN => mvn spring-boot:run
 ```
 
 ## Sources you can take help from: 
