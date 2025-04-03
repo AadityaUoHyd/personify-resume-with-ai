@@ -11,13 +11,14 @@ This project, **Personify Resume with AI**, is an AI-powered resume-building web
 ## Get your mistral api-key from here for your .env file
 You can use freely available key for demo projects => https://console.mistral.ai/api-keys
 
-## spring.ai.mistralai.chat.options.model 
-choose any one from :
+```
+spring.ai.mistralai.chat.options.model=<choose any one model from given below>
 - open-mistral-7b,
 - open-mixtral-8x7b,
 - open-mixtral-8x22b,
 - mistral-small-latest,
 - mistral-large-latest.
+```
 
 ## How to start project 
 - resume-personify-ai-react-frontend (vite project)
